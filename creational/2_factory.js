@@ -48,3 +48,7 @@ const members = [
 members.forEach(m => {
     m.define()
 })
+
+members.forEach(m => {
+    console.log(m)
+})
